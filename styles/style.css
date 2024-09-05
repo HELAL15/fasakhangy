@@ -470,13 +470,19 @@ header .content-seconed{
   position: relative;
   transition: .3s;
   text-align: center;
-  padding-right: .4rem;
-  padding-left: .4rem;
-  font-size: 1rem;
+  padding-right: .3rem;
+  padding-left: .3rem;
+  font-size: .7rem;
+}
+
+@media(min-width:1440px){
+  .navbar a.nav-link{
+    font-size: 1rem;
+  }
 }
 
 .navbar .navbar-nav{
-  gap: 1rem;
+  gap: .7rem;
 }
 
 @media(max-width: 1024px){
@@ -511,7 +517,7 @@ header .content-seconed{
 }
 
 .download-links a{
-  max-width: 150px;
+  max-width: 108px;
   /* height: 50px; */
 
   img{
@@ -519,6 +525,12 @@ header .content-seconed{
     height: 100%;
     -o-object-fit: contain;
        object-fit: contain;
+  }
+}
+
+@media(min-width:1440px){
+  .download-links a{
+    max-width: 150px;
   }
 }
 
@@ -530,7 +542,7 @@ header .content-seconed{
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: .4rem;
     padding-left: .4rem;
-    font-size: .9rem;
+    font-size: .7rem;
 }
 }
 
