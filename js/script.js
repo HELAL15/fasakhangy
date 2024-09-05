@@ -68,7 +68,12 @@ $(document).ready(function(){
       },
 
       rtl: dirAr,
-    
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
     });
 
 
