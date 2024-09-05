@@ -472,7 +472,7 @@ header .content-seconed{
   text-align: center;
   padding-right: .3rem;
   padding-left: .3rem;
-  font-size: .7rem;
+  font-size: .9rem;
 }
 
 @media(min-width:1440px){
@@ -542,7 +542,7 @@ header .content-seconed{
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: .4rem;
     padding-left: .4rem;
-    font-size: .7rem;
+    font-size: .8rem;
 }
 }
 
